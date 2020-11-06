@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 
 ```
 ## Despription
-"PHotoVoltaic FindER" (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers in the low-voltage network. It contains the R functions for data representation, feature extraction, and PV users' classification using the extracted features. 
+"PHOtoVoltAic FindER" (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers in the low-voltage network. It contains the R functions for data representation, feature extraction, and PV users' classification using the extracted features. 
 
 ## Load the package
 ```{r setup, eval=TRUE, echo=TRUE}
