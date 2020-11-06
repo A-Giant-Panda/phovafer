@@ -7,3 +7,7 @@ To install:
 devtools::install_github("https://github.com/A-Giant-Panda/phovafer/tree/master")
 
 library(phovafer)
+
+To visit the website:
+
+https://a-giant-panda.github.io/phovafer/
