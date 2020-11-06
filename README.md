@@ -4,4 +4,5 @@ This package is developed for the project "Analytical Middleware for Informed Di
 
 To install: 
 devtools::install_github("https://github.com/A-Giant-Panda/phovafer/tree/master")
+
 library(phovafer)
