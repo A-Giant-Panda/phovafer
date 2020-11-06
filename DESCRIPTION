@@ -1,0 +1,29 @@
+Package: phovafer
+Title: Automated PV Identification on Unmonitored Distribution Network Feeders
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Dongjiao",
+           family = "Ge",
+           role = c("aut", "cre"),
+           email = "dongjiao.ge@eng.ox.ac.uk"),
+    person(given = "Maomao",
+           family = "Hu",
+           role = c("aut"),
+           email = "maomao.hu@eng.ox.ac.uk"),
+    person(given = "David",
+           family = "Wallom",
+           role = c("aut", "cph"),
+           email = "david.wallom@oerc.ox.ac.uk"))
+Description: This package is developed for the project "Analytical Middleware for Informed Distribution Networks (AMIDiNe)" (EPSRC Reference: EP/S030131/1) by the aim of identifying the solar photovoltaic (PV) users among the regular consumers in the low-voltage network. It contains the R functions for data representation, feature extraction, and PV users' classification using the extracted features. It is associated with the working manuscript "Ge, D., Hu, M., Telford, R., Stephen, B., & Wallom, D. (2020). Automated Quantification of PV Penetration on Unmonitored Distribution Network Feeders."
+License: GPL-3
+Depends: R (>= 3.5.0), caret, matrixStats, stats
+Imports: ggplot2, GGally
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr

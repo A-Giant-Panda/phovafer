@@ -1,0 +1,16 @@
+#' The simulated half-hourly PV generation profiles (in kW) of 42 households.
+#'
+#' PV generation was simulated by Dr. Rory Telford from the University of Strathclyde. PV generation at each households was simulated at half-hourly time resolution based on an open-source PV model \url{https://pvpmc.sandia.gov/applications/pv_lib-toolbox/} combined with global horizontal irradiance (GHI) weather data \url{https://e3p.jrc.ec.europa.eu/articles/typical-meteorological-year-tmy}.
+#' @format A dataframe with 4416 rows and 48 variables:
+#' \describe{
+#'   \item{date}{(character) Date of the PV generations with the form 'yyyy-mm-dd'.}
+#'   \item{time}{(character) Timestamps was recorded. Ranges from 00:00:00 to 23:30:00.}
+#'   \item{year}{(integer) The year was recorded.}
+#'   \item{month}{(character) The month was recorded. These months are March, April and May.}
+#'   \item{mdate}{(character) Denote the date and month with the form 'dd-mm'.}
+#'   \item{week}{(character) The day-of-the-week was recorded. Ranges from 'Monday' to 'Sunday'.}
+#'   \item{`7-48`}{(numeric) PV generation profiles (in kW) of each household at the given time.}
+#' }
+#' @source Provided by the project "Analytical Middleware for Informed Distribution Networks (AMIDiNe)" (EPSRC Reference: EP/S030131/1).
+#' @examples head(pvSample[,1:10])
+"pvSample"
